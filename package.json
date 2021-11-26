@@ -1,0 +1,19 @@
+{
+  "name": "sunday-restaurant",
+  "version": "1.0.0",
+  "description": "Simple Restaurant website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harounach/sunday-restaurant.git"
+  },
+  "author": "Haroun Ach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harounach/sunday-restaurant/issues"
+  },
+  "homepage": "https://github.com/harounach/sunday-restaurant#readme"
+}

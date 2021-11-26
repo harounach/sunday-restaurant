@@ -1,0 +1,34 @@
+// <abstracts>
+// 01-variables
+// 02-functions
+// 03-mixins
+// 04-placeholders
+// 05-animations
+@use "./abstracts/variables" as vars;
+@use "./abstracts/mixins";
+
+// <vendors>
+
+// <base>
+// 01-base
+// 02-reset
+// 03-typography
+@use "./base/base";
+@use "./base/reset";
+@use "./base/typography";
+
+// <layout>
+// 01-grid
+@use "./layout/grid";
+
+// <components>
+@use "./components/appbar";
+@use "./components/button";
+@use "./components/chip";
+@use "./components/menu";
+@use "./components/gallery";
+
+// <pages>
+@use "./pages/home.scss";
+
+// <themes>
