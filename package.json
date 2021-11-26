@@ -2,10 +2,10 @@
   "name": "sunday-restaurant",
   "version": "1.0.0",
   "description": "Simple Restaurant website",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/index.html -p 3000",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/harounach/sunday-restaurant#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1",
     "sass": "^1.43.5"
   }
 }
