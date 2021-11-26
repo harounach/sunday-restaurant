@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 996px;
+  margin: auto;
+}
+
+/* btn */
+.btn {
+}
+
+.btn--primary {
+}
+
+/* appbar */
+.appbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* logo */
+.logo {
+}
+
+.logo__img {
+}
+
+/* nav */
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav li {
+  display: block;
+}
+
+.nav__link {
+  display: block;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 10px;
+}
