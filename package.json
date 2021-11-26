@@ -4,6 +4,7 @@
   "description": "Simple Restaurant website",
   "main": "index.js",
   "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/harounach/sunday-restaurant/issues"
   },
-  "homepage": "https://github.com/harounach/sunday-restaurant#readme"
+  "homepage": "https://github.com/harounach/sunday-restaurant#readme",
+  "devDependencies": {
+    "sass": "^1.43.5"
+  }
 }
