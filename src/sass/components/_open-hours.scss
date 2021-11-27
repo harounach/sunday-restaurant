@@ -10,6 +10,7 @@
   li {
     display: flex;
     align-items: center;
+    gap: 0.25rem;
   }
   // open-hours__day
   &__day {
@@ -21,6 +22,11 @@
 
   // open-hours__dots
   &__dots {
+    background-image: url("../images/dot.svg");
+    align-self: center;
+    display: block;
+    width: 288px;
+    height: 8px;
   }
 
   // open-hours__hours

@@ -4,7 +4,7 @@
   "description": "Simple Restaurant website",
   "private": true,
   "scripts": {
-    "start": "parcel src/index.html -p 3000",
+    "start": "parcel src/index.html -p 3000 --open",
     "build": "parcel build src/index.html"
   },
   "repository": {
