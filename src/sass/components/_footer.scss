@@ -1,0 +1,7 @@
+@use "../abstracts/variables" as vars;
+
+// footer
+.footer {
+  height: 120px;
+  background-color: vars.$primary-color;
+}
